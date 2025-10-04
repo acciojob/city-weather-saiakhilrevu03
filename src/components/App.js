@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import 'regenerator-runtime/runtime';
 
 const API_KEY = '9fadd7fe702df1756101a89462ef75fa'; 
 
