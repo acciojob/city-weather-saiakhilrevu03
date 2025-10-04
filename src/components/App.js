@@ -19,6 +19,7 @@ function App() {
       }
       const data = await response.json();
       setWeather(data);
+      setQuery('');  // Clear input after successful fetch
     } catch (err) {
       setWeather(null);
       setError(err.message);
